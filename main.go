@@ -9,6 +9,7 @@ import (
 
 	"github.com/joshpaq/advent_of_code_2023/day1"
 	"github.com/joshpaq/advent_of_code_2023/day2"
+	"github.com/joshpaq/advent_of_code_2023/day3"
 )
 
 func main() {
@@ -47,6 +48,13 @@ func main() {
 					result = day2.Part1()
 				case "2":
 					result = day2.Part2()
+				}
+			case "3":
+				switch part {
+				case "1":
+					result = day3.Part1()
+				case "2":
+					result = day3.Part2()
 				}
 			}
 
